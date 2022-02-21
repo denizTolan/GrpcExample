@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "NaeM/B6CVkOeDg8c6+q+b0/F756rCBQZ0rsC9kees1Oh60SLQv96cOIAWR81EWZvRw+VMX6efQn9ef6rDmUjNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deniz.tolan\\RiderProjects\\GrpcExample\\GrpcExample.Server.Library\\GrpcExample.Server.Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.aspnetcore.server\\2.42.0\\grpc.aspnetcore.server.2.42.0.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.core\\2.43.0\\grpc.core.2.43.0.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.core.api\\2.43.0\\grpc.core.api.2.43.0.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.net.common\\2.42.0\\grpc.net.common.2.42.0.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.tools\\2.43.0\\grpc.tools.2.43.0.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

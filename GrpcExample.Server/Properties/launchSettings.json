@@ -1,0 +1,15 @@
+﻿{
+  "profiles": {
+    "GrpcExample.Server": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": true,
+      "externalUrlConfiguration": true,
+      "launchUrl": "swagger/index.html",
+      "applicationUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

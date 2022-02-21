@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "xQKmvPP0LdL6xXEKMm9EINGP3fcWiZWimw+tvYuKLXvbkXC+xY8FnT3Gqtm37I1WW7BqjoVokb5O2e2Z5RSsZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deniz.tolan\\RiderProjects\\GrpcExample\\GrpcExample.Client\\GrpcExample.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.core\\2.44.0-pre2\\grpc.core.2.44.0-pre2.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.core.api\\2.44.0-pre2\\grpc.core.api.2.44.0-pre2.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.net.client\\2.43.0-pre1\\grpc.net.client.2.43.0-pre1.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.net.common\\2.43.0-pre1\\grpc.net.common.2.43.0-pre1.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.tools\\2.44.0-pre2\\grpc.tools.2.44.0-pre2.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

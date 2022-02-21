@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Grpc.AspNetCore" Version="2.34.0" />
+        <PackageReference Include="Grpc.Tools" Version="2.43.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="grpcServer.pfx">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Remove="Services\**" />
+      <None Remove="Protos\**" />
+      <None Remove="BusinessLayer\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Services\**" />
+      <Compile Remove="Protos\**" />
+      <Compile Remove="BusinessLayer\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Services\**" />
+      <EmbeddedResource Remove="Protos\**" />
+      <EmbeddedResource Remove="BusinessLayer\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Services\**" />
+      <Content Remove="Protos\**" />
+      <Content Remove="BusinessLayer\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GrpcExample.Server.Library\GrpcExample.Server.Library.csproj" />
+    </ItemGroup>
+
+</Project>
